@@ -37,7 +37,8 @@ while True:
                 grid[i*cell_height:(i+1)*cell_height, j*cell_width:(j+1)*cell_width] = resized_frame
 
     # Display the grid
-    cv2.imshow('Video Grid', grid)
+    cv2.imwrite('img.png', grid)
+    # cv2.imshow('Video Grid', grid)
 
     # Check for user input to quit
     key = cv2.waitKey(1) & 0xFF

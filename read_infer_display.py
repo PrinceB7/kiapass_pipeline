@@ -12,6 +12,7 @@ GRID_COLUMNS = 5
 VIDEO_WIDTH = 1920
 VIDEO_HEIGHT = 1080
 MODEL_PATH = 'yolov8n-seg.pt'
+# MODEL_PATH = 'yolov8n-seg.pt'
 
 # Load video paths from JSON
 with open(CONFIG_FILE, 'r') as f:
